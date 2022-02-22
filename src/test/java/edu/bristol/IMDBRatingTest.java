@@ -21,7 +21,7 @@ public class IMDBRatingTest
         assertTrue(averageRating == 3.0, "Adding 2nd rating: average should be 3.0");
      
 
-        System.out.println("testBranch ");
+        System.out.println("testBranch 2");
     }
 
 
