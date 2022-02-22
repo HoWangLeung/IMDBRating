@@ -25,5 +25,4 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: Testing
-    - run: echo "I should see this line"
     - run: mvn test
