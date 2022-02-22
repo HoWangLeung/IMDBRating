@@ -17,6 +17,10 @@ public class IMDBRatingTest
         averageRating = rater.addNewRating(4);
         assertTrue(averageRating == 3.0, "Adding 2nd rating: average should be 3.0");
 
+
         System.out.println("World");
+
     }
+
+
 }
