@@ -25,6 +25,7 @@ jobs:
     - name: Build with Maven
       run:  |
         mvn -B package --file pom.xml
-        mvn test
+    - name: Test With Maven
+      run: mvn test
 
 
