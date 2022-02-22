@@ -24,5 +24,6 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-    - name: Printing the console
-      run: echo "I should see this line"
+    - name: Testing
+    - run: echo "I should see this line"
+    - run: mvn test
